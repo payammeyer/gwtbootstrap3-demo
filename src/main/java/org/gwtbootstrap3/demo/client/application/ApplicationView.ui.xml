@@ -146,6 +146,8 @@
                                     </b:AnchorListItem>
                                     <b:AnchorListItem targetHistoryToken="{nameTokens.getDatetimePicker}">DateTimePicker
                                     </b:AnchorListItem>
+                                    <b:AnchorListItem targetHistoryToken="{nameTokens.getFileUpload}">FileUpload
+                                    </b:AnchorListItem>
                                     <b:AnchorListItem targetHistoryToken="{nameTokens.getFullCalendar}">FullCalendar
                                     </b:AnchorListItem>
                                     <b:AnchorListItem targetHistoryToken="{nameTokens.getNotify}">Notify

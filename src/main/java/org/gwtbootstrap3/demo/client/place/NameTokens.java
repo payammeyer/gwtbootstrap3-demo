@@ -85,6 +85,7 @@ public class NameTokens {
     public static final String NOTIFY = "notify";
     public static final String FULL_CALENDAR = "fullcalendar";
     public static final String ANIMATE = "animate";
+    public static final String FILE_UPLOAD = "fileupload";
 
     // Getters for UiBinders
 
@@ -294,5 +295,9 @@ public class NameTokens {
 
     public static String getAnimate() {
         return ANIMATE;
+    }
+
+    public static String getFileUpload() {
+        return FILE_UPLOAD;
     }
 }

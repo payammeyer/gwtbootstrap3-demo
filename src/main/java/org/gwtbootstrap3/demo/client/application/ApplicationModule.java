@@ -21,7 +21,6 @@ package org.gwtbootstrap3.demo.client.application;
  */
 
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
-
 import org.gwtbootstrap3.demo.client.application.components.*;
 import org.gwtbootstrap3.demo.client.application.css.*;
 import org.gwtbootstrap3.demo.client.application.css.validation.FormsWithValidationPresenter;
@@ -103,5 +102,6 @@ public class ApplicationModule extends AbstractPresenterModule {
         bindPresenter(NotifyPresenter.class, NotifyPresenter.MyView.class, NotifyView.class, NotifyPresenter.MyProxy.class);
         bindPresenter(FullCalendarPresenter.class, FullCalendarPresenter.MyView.class, FullCalendarView.class, FullCalendarPresenter.MyProxy.class);
         bindPresenter(AnimatePresenter.class, AnimatePresenter.MyView.class, AnimateView.class, AnimatePresenter.MyProxy.class);
+        bindPresenter(FileUploadPresenter.class, FileUploadPresenter.MyView.class, FileUploadView.class, FileUploadPresenter.MyProxy.class);
     }
 }
